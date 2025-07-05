@@ -57,5 +57,4 @@ This allows you to charge the customer based on the terms defined in the agreeme
 ### 5. Webhooks
 
 Oligo notifies your server about changes to agreement or payment status via webhooks.
-You can initialize your webhook by providing your own webhook endpoint to Oligo.
-
+You can initialize your webhook by providing your own POST webhook endpoint to Oligo for either sandbox or prod.
