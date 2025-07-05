@@ -1,0 +1,6 @@
+extends:
+  - recommended
+
+#api:
+#  hideDownloadButtons: true
+#  disableSearch: true
