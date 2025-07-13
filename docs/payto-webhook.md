@@ -2,6 +2,7 @@
 id: payto-webhook
 title: PayTo Webhook
 sidebar_label: PayTo Webhook
+sidebar_position: 3
 ---
 
 # Oligo PayTo API Overview
