@@ -26,6 +26,8 @@ Accept: application/json
 
 ## Request Body
 
+Here are some key fields in the request payload, please check the API Reference for more details.
+
 | Field                         | Type   | Required | Description                                                                                                                                                                                                                                                                                                              |
 |-------------------------------|--------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `uid`                         | string | Yes      | The supplied unique identifier for the Agreement. <br/>This identifier ensures agreement uniqueness between integrator systems and Oligo.                                                                                                                                                                                |
@@ -176,6 +178,7 @@ Once the agreement is created, the following webhook events may be triggered:
 - `payto_agreement.declined`
 - `payto_agreement.expired`
 - `payto_agreement.failed`
+- `payto_agreement.cancelled`
 
 Each event includes the agreement details and updated status.
 
