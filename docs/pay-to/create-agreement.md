@@ -1,8 +1,8 @@
 ---
 id: create-agreement
 title: Create Agreement
-sidebar_label: Create PayTo Agreement
-description: Create a PayTo Agreement
+sidebar_label: Create Agreement
+description: Create Agreement
 sidebar_position: 2
 ---
 

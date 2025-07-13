@@ -6,7 +6,7 @@ description: Create Payment
 sidebar_position: 4
 ---
 
-# Get Agreement Status
+# Create Agreement
 
 **POST** `/payto/payments`
 
