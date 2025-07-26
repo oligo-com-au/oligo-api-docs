@@ -20,7 +20,7 @@ You can find more details about the webhook events in the [PayTo Webhook](../pay
 
 ### 2. Poll the show agreement endpoint
 
-**GET** `/payto/agreements`
+**GET** [/payto/agreements](/api#tag/Agreements/paths/~1payto~1agreements~1%7Bagreement_uid%7D/get)
 
 
 ## Try It

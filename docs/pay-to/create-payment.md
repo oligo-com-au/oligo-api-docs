@@ -8,7 +8,7 @@ sidebar_position: 4
 
 # Create Payment
 
-**POST** `/payto/payments`
+**POST** [/payto/payments](/api#tag/Payments/paths/~1payto~1payments/post)
 
 ## Overview
 

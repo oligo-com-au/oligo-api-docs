@@ -8,7 +8,7 @@ sidebar_position: 4
 
 # Alias Resolution
 
-**POST** `/payto/alias_resolution`
+**POST** [/payto/alias_resolution](/api#tag/Alias-Resolution/paths/~1payto~1alias_resolution/post)
 
 ---
 ## Overview
