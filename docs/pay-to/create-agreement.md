@@ -8,7 +8,7 @@ sidebar_position: 2
 
 # Create Agreement
 
-**POST** `/payto/agreements`
+**POST** [/payto/agreements](/api#tag/Agreements/paths/~1payto~1agreements/post)
 
 Create a new PayTo agreement for initiating recurring or one-time payments between a debtor and a creditor.
 
@@ -63,14 +63,14 @@ The frequency at which payments will be made. Frequency can be used in conjuncti
 
 The frequency must be one of the following:
 
-- adhoc: A payment on request or as necessary.
-- daily: A payment daily. Valid until 23:59:59.999 Australia Sydney time the same day.
-- weekly: A payment once per week. Valid until 23:59:59.999 Australia Sydney time on the 7th day.
-- fortnightly: A payment every 2 weeks. Valid until 23:59:59.999 Australia Sydney time on the 14th day.
-- monthly: A payment once per month. Valid for the month, up until 23:59:59.999 Australia Sydney time the day before the day noted in the `validity_start_date`.
-- quarterly: A payment every 3 months. Valid for 3 months, up until 23:59:59.999 Australia Sydney time the day before the day noted in the `validity_start_date`.
-- semi_annual: A payment twice per year. Valid for 6 months, up until 23:59:59.999 Australia Sydney time the day before the day noted in the `validity_start_date`.
-- annual: A payment once per year. Valid for 12 months, up until 23:59:59.999 Australia Sydney time the day before the day noted in the `validity_start_date`.
+- `adhoc`: A payment on request or as necessary.
+- `daily`: A payment daily. Valid until 23:59:59.999 Australia Sydney time the same day.
+- `weekly`: A payment once per week. Valid until 23:59:59.999 Australia Sydney time on the 7th day.
+- `fortnightly`: A payment every 2 weeks. Valid until 23:59:59.999 Australia Sydney time on the 14th day.
+- `monthly`: A payment once per month. Valid for the month, up until 23:59:59.999 Australia Sydney time the day before the day noted in the `validity_start_date`.
+- `quarterly`: A payment every 3 months. Valid for 3 months, up until 23:59:59.999 Australia Sydney time the day before the day noted in the `validity_start_date`.
+- `semi_annual`: A payment twice per year. Valid for 6 months, up until 23:59:59.999 Australia Sydney time the day before the day noted in the `validity_start_date`.
+- `annual`: A payment once per year. Valid for 12 months, up until 23:59:59.999 Australia Sydney time the day before the day noted in the `validity_start_date`.
 
 NOTE: For periods starting at the end of a month with 31 days, when calculating a period during a shorter month, the end of the shorter month will be the period end.
 
