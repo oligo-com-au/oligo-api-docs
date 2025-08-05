@@ -910,7 +910,7 @@ paths:
         - name: state
           description: >-
             Filter agreements by state. Multiple values can be separated by
-            commas.
+            commas. e.g 'pending,created'
           in: query
           explode: false
           schema:
@@ -1626,7 +1626,7 @@ paths:
         - name: state
           description: >-
             Filter payments by state. Multiple values can be separated by
-            commas.
+            commas. e.g 'created,submitting'
           in: query
           explode: false
           schema:
